@@ -1,12 +1,17 @@
+/**
+ *main - Entry Point
+ *Return Always 0
+ */
+
 #include <stdio.h>
 
 int main(void)
 {
-	char i;
-
-	printf("\n\nLower case characters:\n");
-	for (i = 'a'; i <= 'z'; i++)
-		printf("%c ", i);
-
-return (0);
+	char c;
+for (c = 'a'; c <= 'z'; c++)
+{
+	putchar(c);
+}
+	putchar('\n');
+	return (0);
 }
