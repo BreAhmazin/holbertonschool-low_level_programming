@@ -1,10 +1,12 @@
 /**
  * Description: Header File
- *
+ * Main - Entry Point
+ * Return Always 0
  */
-
+#include <stdio.h>
 #ifndef _PUTCHAR
-#define _ PUTCHAR
+#define _PUTCHAR
+
 int _putchar(char c);
 
 int _isupper(int c);
@@ -12,6 +14,8 @@ int _isupper(int c);
 int _isdigit(int c);
 
 int mul(int a, int b);
+
+int main(void);
 
 void print_numbers(void);
 
