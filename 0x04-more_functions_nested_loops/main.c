@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 /**
  * Main - Entry Point
  * Return: Always 0
