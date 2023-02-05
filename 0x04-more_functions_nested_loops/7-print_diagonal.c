@@ -1,5 +1,5 @@
 /**
- * print_diagnol - it draws!
+ * print_diagonal - it draws!
  * @n: an incrementor
  * Return: Always 0
  */
