@@ -1,11 +1,11 @@
-#!/bin/bash
-git add .
-echo "commit message"
-read commit_message
-git commit -m "$commit_message"
-result=$?
-if [ $result -eq 0 ]; then
-	git push
-else
-	echo "commit failed"
-fi
+/**
+ *_putchar - writes the character c to stdout
+ *On error, -1 is returned, and errno is set appropiately
+ */
+#include <unistd.h>
+#include <stdio.h>
+
+int _putchar(char c)
+{
+	return (write(1, &c, 1));
+}
