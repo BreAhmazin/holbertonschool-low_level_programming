@@ -1,5 +1,6 @@
 #ifndef _PUTCHAR
 #define _PUTCHAR
+int main(void);
 int _putchar(char c);
 int _isupper(int c);
 int _isdigit(int c);
