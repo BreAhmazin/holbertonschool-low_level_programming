@@ -1,34 +1,34 @@
-/*
- * fizz_buzz - Fizz Buzzy
- * main - Entry Point
- * Return: Always 0
+/**
+ * main - Entry point
+ * Description: Prints a Fizz Buzz program
+ * Return: Always 0 (Success)
  */
 #include "main.h"
 #include <stdio.h>
 
 int main(void)
-
 {
-	int n;
-	for (n = 1; n <= 100; n++)
+	int b;
+
+	for (b = 1; b <= 100; b++)
 	{
-	if ((n % 3 == 0) && (n % 5 == 0))
+	if ((b % 3 == 0) && (b % 5 == 0))
 	{
 	printf("FizzBuzz");
 	}
-	else if (n % 5 == 0)
+	else if (b % 5 == 0)
 	{
 	printf("Buzz");
 	}
-	else if (n % 3 == 0)
+	else if (b % 3 == 0)
 	{
 	printf("Fizz");
 	}
 	else
 	{
-	printf("%d", n);
+	printf("%d", b);
 	}
-	if (n != 100)
+	if (b != 100)
 	{
 	printf(" ");
 	}
