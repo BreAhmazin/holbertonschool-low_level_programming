@@ -1,5 +1,5 @@
 /**
- * _memcoy - Entry point
+ * _memcpy - Entry point
  * @dest: input
  * @src: input
  * @n: something
