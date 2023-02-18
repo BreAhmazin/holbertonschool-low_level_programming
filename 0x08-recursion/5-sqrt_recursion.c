@@ -6,7 +6,6 @@ int _sqrt(int n, int i);
 /**
  * _sqrt_recursion - a function that returns the natural square root
  * @n: number being used to return the natural square root
- * @i: repeat number
  * Return: natural square root
  */
 int _sqrt_recursion(int n)
