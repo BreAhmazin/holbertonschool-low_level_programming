@@ -1,14 +1,14 @@
 /**
  * _puts - prints string
- * @str: the string
  * Return: None
  */
 #include "main.h"
-void _puts(char *str)
+#include <stdio.h>
+#include <stdlib.h>
+#include <ctype.h>
+#include <string.h>
+
+void _puts(char *s)
 {
-	for (; *str != '\0'; str++)
-	{
-	_putchar(*str);
-	}
-	_putchar('\n');
+	    puts(s);
 }
