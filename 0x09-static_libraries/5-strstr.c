@@ -1,8 +1,3 @@
-/**
- * _strstr - terminator
- * @haystack: string
- * @needle: needy
- */
 #include "main.h"
 #include <stdio.h>
 #include <stdlib.h>
@@ -11,5 +6,5 @@
 
 char *_strstr(char *haystack, char *needle)
 {
-	    return strstr(haystack, needle);
+    return strstr(haystack, needle);
 }

@@ -1,7 +1,10 @@
 #include "main.h"
 #include <stdio.h>
-int atoi(char *s)
+#include <stdlib.h>
+#include <ctype.h>
+#include <string.h>
+int _atoi(char *s)
 
 {
-	return atoi(s);
+    return atoi(s);
 }
